@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { SharedModule } from '../../modules/shared.module';
+import { SwalService } from '../../services/swal.service';
 
 @Component({
   selector: 'app-home',
@@ -9,4 +10,11 @@ import { SharedModule } from '../../modules/shared.module';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  constructor(
+    private swal: SwalService
+  ) {
+    this.swal.callSwal("Kaydı Sil", "Kaydı silmek istiyor musunuz?", ()=> {
+      alert("Silme işlemi başarılı");
+  });
+}
 }
