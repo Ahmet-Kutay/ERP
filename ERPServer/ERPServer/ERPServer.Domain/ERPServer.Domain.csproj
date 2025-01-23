@@ -13,8 +13,4 @@
     <PackageReference Include="TS.EntityFrameworkCore.GenericRepository" Version="8.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="NewFolder\" />
-  </ItemGroup>
-
 </Project>

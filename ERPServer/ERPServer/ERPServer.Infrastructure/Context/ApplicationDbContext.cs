@@ -12,8 +12,10 @@ namespace ERPServer.Infrastructure.Context
         {
         }
 
-        public DbSet<Customer> Customers { get; set; } 
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Depot> Depots { get; set; }
 
+        public DbSet<Product> Products { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfigurationsFromAssembly(typeof(DependencyInjection).Assembly);

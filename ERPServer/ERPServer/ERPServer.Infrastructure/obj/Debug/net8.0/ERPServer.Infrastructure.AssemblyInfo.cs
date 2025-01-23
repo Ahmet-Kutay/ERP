@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERPServer.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f20d04332879c7a30ea4306ede479b63179a26a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80dacf62c7ad27b5607c6a16ffef90aa08300bcb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERPServer.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERPServer.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

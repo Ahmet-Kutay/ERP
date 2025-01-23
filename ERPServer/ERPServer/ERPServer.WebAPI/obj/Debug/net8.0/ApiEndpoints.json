@@ -78,5 +78,69 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPServer.WebAPI.Controllers.DepotsController",
+    "Method": "Create",
+    "RelativePath": "api/Depots/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPServer.Application.Features.Depots.CreateDepot.CreateDepotCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPServer.WebAPI.Controllers.DepotsController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Depots/DeleteById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPServer.Application.Features.Depots.DeleteDepotById.DeleteDepotByIdCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPServer.WebAPI.Controllers.DepotsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Depots/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPServer.Application.Features.Depots.GetAllDepot.GetAllDepotQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPServer.WebAPI.Controllers.DepotsController",
+    "Method": "Update",
+    "RelativePath": "api/Depots/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPServer.Application.Features.Depots.UpdateDepot.UpdateDepotCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
