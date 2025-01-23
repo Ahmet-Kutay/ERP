@@ -10,3 +10,4 @@ C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Deb
 C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Debug\net8.0\refint\ERPServer.Domain.dll
 C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Debug\net8.0\ERPServer.Domain.pdb
 C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Debug\net8.0\ref\ERPServer.Domain.dll
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Debug\net8.0\ERPServer.Domain.sourcelink.json

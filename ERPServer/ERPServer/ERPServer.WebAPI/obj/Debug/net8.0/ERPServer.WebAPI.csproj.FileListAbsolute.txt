@@ -162,3 +162,4 @@ C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.WebAPI\obj\Deb
 C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.pdb
 C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.genruntimeconfig.cache
 C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ref\ERPServer.WebAPI.dll
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.sourcelink.json

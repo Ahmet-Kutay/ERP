@@ -17,3 +17,4 @@ C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Infrastructure
 C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Infrastructure\obj\Debug\net8.0\ERPServer.Infrastructure.pdb
 C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Infrastructure\obj\Debug\net8.0\ERPServer.Infrastructure.genruntimeconfig.cache
 C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Infrastructure\obj\Debug\net8.0\ref\ERPServer.Infrastructure.dll
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Infrastructure\obj\Debug\net8.0\ERPServer.Infrastructure.sourcelink.json

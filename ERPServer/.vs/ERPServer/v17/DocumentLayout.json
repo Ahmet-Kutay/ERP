@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3D5490A-5C85-4260-979E-9C2B42F84FAA}|ERPServer\\ERPServer.Domain\\ERPServer.Domain.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D5490A-5C85-4260-979E-9C2B42F84FAA}|ERPServer\\ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver\\erpserver.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver\\erpserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver\\erpserver.webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.application\\features\\customers\\updatecustomer\\updatecustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver\\erpserver.application\\features\\customers\\updatecustomer\\updatecustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Domain\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Domain\\Entities\\Customer.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Domain\\Entities\\Customer.cs",
-              "RelativeToolTip": "ERPServer\\ERPServer.Domain\\Entities\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T12:13:19.816Z",
+              "WhenOpened": "2025-01-23T08:22:25.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "ERPServer\\ERPServer.WebAPI\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "ERPServer\\ERPServer.WebAPI\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T08:21:22.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateCustomerCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Features\\Customers\\UpdateCustomer\\UpdateCustomerCommand.cs",
+              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Application\\Features\\Customers\\UpdateCustomer\\UpdateCustomerCommand.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Features\\Customers\\UpdateCustomer\\UpdateCustomerCommand.cs",
+              "RelativeToolTip": "ERPServer\\ERPServer.Application\\Features\\Customers\\UpdateCustomer\\UpdateCustomerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T08:17:38.855Z",
               "EditorCaption": ""
             }
           ]
