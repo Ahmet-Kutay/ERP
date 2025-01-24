@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{020A569C-9CF4-481B-8DF0-BCF769A4C6E2}|ERPServer\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{020A569C-9CF4-481B-8DF0-BCF769A4C6E2}|ERPServer\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:erpserver\\erpserver.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.webapi\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver\\erpserver.webapi\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{020A569C-9CF4-481B-8DF0-BCF769A4C6E2}|ERPServer\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{020A569C-9CF4-481B-8DF0-BCF769A4C6E2}|ERPServer\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:erpserver\\erpserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.application\\features\\recipedetails\\getrecipebyidwithdetails\\getrecipebyidwithdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver\\erpserver.application\\features\\recipedetails\\getrecipebyidwithdetails\\getrecipebyidwithdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{020A569C-9CF4-481B-8DF0-BCF769A4C6E2}|ERPServer\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.infrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{020A569C-9CF4-481B-8DF0-BCF769A4C6E2}|ERPServer\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:erpserver\\erpserver.infrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.application\\features\\recipedetails\\getrecipebyidwithdetails\\getrecipebyidwithdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver\\erpserver.application\\features\\recipedetails\\getrecipebyidwithdetails\\getrecipebyidwithdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D5490A-5C85-4260-979E-9C2B42F84FAA}|ERPServer\\ERPServer.Domain\\ERPServer.Domain.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D5490A-5C85-4260-979E-9C2B42F84FAA}|ERPServer\\ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver\\erpserver.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.application\\features\\recipedetails\\updaterecipedetail\\updaterecipedetailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver\\erpserver.application\\features\\recipedetails\\updaterecipedetail\\updaterecipedetailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D5490A-5C85-4260-979E-9C2B42F84FAA}|ERPServer\\ERPServer.Domain\\ERPServer.Domain.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.domain\\enums\\producttypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D5490A-5C85-4260-979E-9C2B42F84FAA}|ERPServer\\ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver\\erpserver.domain\\enums\\producttypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.application\\features\\recipedetails\\updaterecipedetail\\updaterecipedetailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver\\erpserver.application\\features\\recipedetails\\updaterecipedetail\\updaterecipedetailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D5490A-5C85-4260-979E-9C2B42F84FAA}|ERPServer\\ERPServer.Domain\\ERPServer.Domain.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D5490A-5C85-4260-979E-9C2B42F84FAA}|ERPServer\\ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver\\erpserver.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.webapi\\controllers\\recipedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver\\erpserver.webapi\\controllers\\recipedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "ERPServer\\ERPServer.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Title": "RecipesController.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\Controllers\\RecipesController.cs",
+              "RelativeDocumentMoniker": "ERPServer\\ERPServer.WebAPI\\Controllers\\RecipesController.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\Controllers\\RecipesController.cs",
+              "RelativeToolTip": "ERPServer\\ERPServer.WebAPI\\Controllers\\RecipesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T11:10:32.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ERPServer\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T11:09:59.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "RelativeToolTip": "ERPServer\\ERPServer.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T11:07:50.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Domain\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Domain\\Repositories\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Domain\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "ERPServer\\ERPServer.Domain\\Repositories\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T11:07:16.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductTypeEnum.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Domain\\Enums\\ProductTypeEnum.cs",
-              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Domain\\Enums\\ProductTypeEnum.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Domain\\Enums\\ProductTypeEnum.cs",
-              "RelativeToolTip": "ERPServer\\ERPServer.Domain\\Enums\\ProductTypeEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T11:05:13.377Z",
+              "WhenOpened": "2025-01-24T11:00:14.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "ERPServer\\ERPServer.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "RecipeDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\Controllers\\RecipeDetailsController.cs",
+              "RelativeDocumentMoniker": "ERPServer\\ERPServer.WebAPI\\Controllers\\RecipeDetailsController.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\Controllers\\RecipeDetailsController.cs",
+              "RelativeToolTip": "ERPServer\\ERPServer.WebAPI\\Controllers\\RecipeDetailsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T11:02:44.252Z",
+              "WhenOpened": "2025-01-24T10:58:22.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateRecipeDetailCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\UpdateRecipeDetail\\UpdateRecipeDetailCommandHandler.cs",
+              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\UpdateRecipeDetail\\UpdateRecipeDetailCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\UpdateRecipeDetail\\UpdateRecipeDetailCommandHandler.cs",
+              "RelativeToolTip": "ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\UpdateRecipeDetail\\UpdateRecipeDetailCommandHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:55:46.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateRecipeDetailCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\UpdateRecipeDetail\\UpdateRecipeDetailCommand.cs",
+              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\UpdateRecipeDetail\\UpdateRecipeDetailCommand.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\UpdateRecipeDetail\\UpdateRecipeDetailCommand.cs",
+              "RelativeToolTip": "ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\UpdateRecipeDetail\\UpdateRecipeDetailCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:55:28.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetRecipeByIdWithDetailsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\GetRecipeByIdWithDetails\\GetRecipeByIdWithDetailsQueryHandler.cs",
+              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\GetRecipeByIdWithDetails\\GetRecipeByIdWithDetailsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\GetRecipeByIdWithDetails\\GetRecipeByIdWithDetailsQueryHandler.cs",
+              "RelativeToolTip": "ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\GetRecipeByIdWithDetails\\GetRecipeByIdWithDetailsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:54:44.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetRecipeByIdWithDetailsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\GetRecipeByIdWithDetails\\GetRecipeByIdWithDetailsQuery.cs",
+              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\GetRecipeByIdWithDetails\\GetRecipeByIdWithDetailsQuery.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\GetRecipeByIdWithDetails\\GetRecipeByIdWithDetailsQuery.cs",
+              "RelativeToolTip": "ERPServer\\ERPServer.Application\\Features\\RecipeDetails\\GetRecipeByIdWithDetails\\GetRecipeByIdWithDetailsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:54:19.344Z",
               "EditorCaption": ""
             }
           ]
