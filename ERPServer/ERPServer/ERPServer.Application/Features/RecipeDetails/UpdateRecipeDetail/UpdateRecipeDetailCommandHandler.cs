@@ -22,15 +22,15 @@ internal sealed class UpdateRecipeDetailCommandHandler(
             return Result<string>.Failure("Reçetede bu ürün bulunamadı");
         }
 
-        RecipeDetail? oldRecipeDetail =
+        RecipeDetail? oldRecipeDetail = 
             await recipeDetailRepository
-            .Where(p =>
-                    p.Id != request.Id &&
-                    p.ProductId == request.ProductId &&
+            .Where(p=> 
+                    p.Id != request.Id && 
+                    p.ProductId == request.ProductId && 
                     p.RecipeId == recipeDetail.RecipeId)
             .FirstOrDefaultAsync(cancellationToken);
 
-        if (oldRecipeDetail is not null)
+        if(oldRecipeDetail is not null)
         {
             recipeDetailRepository.Delete(recipeDetail);
 

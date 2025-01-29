@@ -16,10 +16,10 @@ internal sealed class UpdateOrderCommandHandler(
 {
     public async Task<Result<string>> Handle(UpdateOrderCommand request, CancellationToken cancellationToken)
     {
-        Order? order =
+        Order? order = 
             await orderRepository
             .Where(p => p.Id == request.Id)
-            .Include(p => p.Details)
+            .Include(p=> p.Details)
             .FirstOrDefaultAsync();
 
         if (order is null)

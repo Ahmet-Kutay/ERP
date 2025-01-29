@@ -14,7 +14,7 @@ internal sealed class DeleteOrderByIdCommandHandler(
     {
         Order order = await orderRepository.GetByExpressionAsync(p => p.Id == request.Id, cancellationToken);
 
-        if (order is null)
+        if(order is null)
         {
             return Result<string>.Failure("Sipariş bulunamadı");
         }

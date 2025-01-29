@@ -14,15 +14,15 @@ internal sealed class DeleteInvoiceByIdCommandHandler(
 {
     public async Task<Result<string>> Handle(DeleteInvoiceByIdCommand request, CancellationToken cancellationToken)
     {
-        Invoice? invoice =
+        Invoice? invoice = 
             await invoiceRepository.GetByExpressionAsync(p => p.Id == request.Id, cancellationToken);
 
-        if (invoice is null)
+        if(invoice is null)
         {
             return Result<string>.Failure("Fatura bulunamadı");
         }
 
-        List<StockMovement> movements =
+        List<StockMovement> movements = 
             await stockMovementRepository
             .Where(p => p.InvoiceId == invoice.Id)
             .ToListAsync(cancellationToken);

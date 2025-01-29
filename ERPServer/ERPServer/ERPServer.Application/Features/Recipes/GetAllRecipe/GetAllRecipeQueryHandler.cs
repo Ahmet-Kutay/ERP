@@ -11,7 +11,7 @@ internal sealed class GetAllRecipeQueryHandler(
 {
     public async Task<Result<List<Recipe>>> Handle(GetAllRecipeQuery request, CancellationToken cancellationToken)
     {
-        List<Recipe> recipes =
+        List<Recipe> recipes = 
             await recipeRepository
             .GetAll()
             .Include(p => p.Product)

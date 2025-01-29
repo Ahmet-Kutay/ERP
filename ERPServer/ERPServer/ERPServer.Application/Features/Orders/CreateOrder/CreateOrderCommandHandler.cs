@@ -15,7 +15,7 @@ internal sealed class CreateOrderCommandHandler(
 {
     public async Task<Result<string>> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
     {
-        Order? lastOrder =
+        Order? lastOrder = 
             await orderRepository
             .Where(p => p.OrderNumberYear == request.Date.Year)
             .OrderByDescending(p => p.OrderNumber)
@@ -23,7 +23,7 @@ internal sealed class CreateOrderCommandHandler(
 
         int lastOrderNumber = 0;
 
-        if (lastOrder is not null) lastOrderNumber = lastOrder.OrderNumber;
+        if(lastOrder is not null) lastOrderNumber = lastOrder.OrderNumber;        
 
         Order order = mapper.Map<Order>(request);
         order.OrderNumber = lastOrderNumber + 1;

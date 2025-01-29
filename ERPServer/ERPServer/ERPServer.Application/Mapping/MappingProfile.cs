@@ -7,6 +7,7 @@ using ERPServer.Application.Features.Invoices.CreateInvoice;
 using ERPServer.Application.Features.Invoices.UpdateInvoice;
 using ERPServer.Application.Features.Orders.CreateOrder;
 using ERPServer.Application.Features.Orders.UpdateOrder;
+using ERPServer.Application.Features.Productions.CreateProduction;
 using ERPServer.Application.Features.Products.CreateProduct;
 using ERPServer.Application.Features.Products.UpdateProduct;
 using ERPServer.Application.Features.RecipeDetails.CreateRecipeDetail;
@@ -44,7 +45,7 @@ public sealed class MappingProfile : Profile
             options.MapFrom(p => p.Details.Select(s => new OrderDetail
             {
                 Price = s.Price,
-                ProductId = s.ProductId,
+                ProductId = s.ProductId,                
                 Quantity = s.Quantity
             }).ToList()));
 
@@ -54,8 +55,8 @@ public sealed class MappingProfile : Profile
             options => options.Ignore());
 
         CreateMap<CreateInvoiceCommand, Invoice>()
-            .ForMember(member => member.Type, options =>
-            options.MapFrom(p => InvoiceTypeEnum.FromValue(p.TypeValue)))
+            .ForMember(member => member.Type, options => 
+            options.MapFrom(p=> InvoiceTypeEnum.FromValue(p.TypeValue)))
             .ForMember(member => member.Details,
             options =>
             options.MapFrom(p => p.Details.Select(s => new InvoiceDetail
@@ -69,6 +70,8 @@ public sealed class MappingProfile : Profile
         CreateMap<UpdateInvoiceCommand, Invoice>()
             .ForMember(member =>
             member.Details,
-        options => options.Ignore());
+            options => options.Ignore());
+
+        CreateMap<CreateProductionCommand, Production>();
     }
 }

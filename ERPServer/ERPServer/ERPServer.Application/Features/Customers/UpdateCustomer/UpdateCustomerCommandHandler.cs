@@ -21,7 +21,7 @@ internal sealed class UpdateCustomerCommandHandler(
             return Result<string>.Failure("Müşteri bulunamadı");
         }
 
-        if (customer.TaxNumber != request.TaxNumber)
+        if(customer.TaxNumber != request.TaxNumber)
         {
             bool isTaxNumberExists = await customerRepository.AnyAsync(p => p.TaxNumber == request.TaxNumber, cancellationToken);
 

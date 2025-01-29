@@ -14,13 +14,13 @@ internal sealed class CreateRecipeDetailCommandHandler(
 {
     public async Task<Result<string>> Handle(CreateRecipeDetailCommand request, CancellationToken cancellationToken)
     {
-        RecipeDetail? recipeDetail =
+        RecipeDetail? recipeDetail = 
             await recipeDetailRepository
-            .GetByExpressionWithTrackingAsync(p =>
-                p.RecipeId == request.RecipeId &&
+            .GetByExpressionWithTrackingAsync(p => 
+                p.RecipeId == request.RecipeId && 
                 p.ProductId == request.ProductId, cancellationToken);
 
-        if (recipeDetail is not null)
+        if(recipeDetail is not null)
         {
             recipeDetail.Quantity += request.Quantity;
         }

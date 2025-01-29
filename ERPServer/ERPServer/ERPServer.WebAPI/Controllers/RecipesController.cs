@@ -32,11 +32,5 @@ public sealed class RecipesController : ApiController
     {
         var response = await _mediator.Send(request, cancellationToken);
         return StatusCode(response.StatusCode, response);
-    }
-    [HttpPost]
-    public async Task<IActionResult>GetByIdWithDetailsQuery(DeleteRecipeByIdCommand request, CancellationToken cancellationToken)
-    {
-        var response = await _mediator.Send(request, cancellationToken);
-        return StatusCode(response.StatusCode, response);
-    }
+    }    
 }

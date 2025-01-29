@@ -14,7 +14,7 @@ internal sealed class DeleteRecipeDetailByIdCommandHandler(
     {
         RecipeDetail recipeDetail = await recipeDetailRepository.GetByExpressionAsync(p => p.Id == request.Id, cancellationToken);
 
-        if (recipeDetail is null)
+        if(recipeDetail is null)
         {
             return Result<string>.Failure("Reçetede bu ürün bulunamadı");
         }

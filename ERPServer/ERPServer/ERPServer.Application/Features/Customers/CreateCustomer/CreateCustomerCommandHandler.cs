@@ -14,18 +14,18 @@ internal sealed class CreateCustomerCommandHandler(
 {
     public async Task<Result<string>> Handle(CreateCustomerCommand request, CancellationToken cancellationToken)
     {
-        bool isTaxNumberExist = await customerRepository.AnyAsync(p => p.TaxNumber == request.TaxNumber, cancellationToken);
-        if (isTaxNumberExist)
+        bool isTaxNumberExists = await customerRepository.AnyAsync(p => p.TaxNumber == request.TaxNumber, cancellationToken);
+
+        if (isTaxNumberExists)
         {
-            return Result<string>.Failure("Vergi numarası daha önce kayıt edilmiş.");
+            return Result<string>.Failure("Vergi numarası daha önce kaydedilmiş");
         }
 
         Customer customer = mapper.Map<Customer>(request);
 
         await customerRepository.AddAsync(customer, cancellationToken);
         await unitOfWork.SaveChangesAsync(cancellationToken);
-        
-        return " Müşteri başarıyla oluşturuldu.";
+
+        return "Müşteri kaydı başarıyla tamamlandı";
     }
 }
-    

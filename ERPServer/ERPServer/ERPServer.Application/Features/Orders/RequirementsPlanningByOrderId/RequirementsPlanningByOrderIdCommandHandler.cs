@@ -17,14 +17,14 @@ internal sealed class RequirementsPlanningByOrderIdCommandHandler(
 {
     public async Task<Result<RequirementsPlanningByOrderIdCommandResponse>> Handle(RequirementsPlanningByOrderIdCommand request, CancellationToken cancellationToken)
     {
-        Order? order =
+        Order? order = 
             await orderRepository
             .Where(p => p.Id == request.OrderId)
-            .Include(p => p.Details!)
-            .ThenInclude(p => p.Product)
+            .Include(p=> p.Details!)
+            .ThenInclude(p=> p.Product)
             .FirstOrDefaultAsync(cancellationToken);
 
-        if (order is null)
+        if(order is null)
         {
             return Result<RequirementsPlanningByOrderIdCommandResponse>.Failure("Sipariş bulunamadı");
         }
@@ -32,13 +32,13 @@ internal sealed class RequirementsPlanningByOrderIdCommandHandler(
         List<ProductDto> uretilmesiGerekenUrunListesi = new();
         List<ProductDto> requirementsPlanningProducts = new();
 
-        if (order.Details is not null)
+        if(order.Details is not null)
         {
             foreach (var item in order.Details)
             {
 
                 var product = item.Product;
-                List<StockMovement> movements =
+                List<StockMovement> movements = 
                     await stockMovementRepository
                     .Where(p => p.ProductId == product!.Id)
                     .ToListAsync(cancellationToken);
@@ -65,10 +65,10 @@ internal sealed class RequirementsPlanningByOrderIdCommandHandler(
                     await recipeRepository
                     .Where(p => p.ProductId == item.Id)
                     .Include(p => p.Details!)
-                    .ThenInclude(p => p.Product)
+                    .ThenInclude(p=> p.Product)
                     .FirstOrDefaultAsync(cancellationToken);
 
-                if (recipe is not null && recipe.Details is not null)
+                if(recipe is not null && recipe.Details is not null)
                 {
                     foreach (var detail in recipe.Details)
                     {
@@ -91,7 +91,7 @@ internal sealed class RequirementsPlanningByOrderIdCommandHandler(
                             requirementsPlanningProducts.Add(ihtiyacOlanUrun);
                         }
                     }
-                }
+                }                   
             }
         }
 
@@ -109,8 +109,8 @@ internal sealed class RequirementsPlanningByOrderIdCommandHandler(
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
         return new RequirementsPlanningByOrderIdCommandResponse(
-            DateOnly.FromDateTime(DateTime.Now),
-            order.Number +
+            DateOnly.FromDateTime(DateTime.Now), 
+            order.Number + 
             " Nolu Siparişin İhtiyaç Planlaması",
             requirementsPlanningProducts);
 

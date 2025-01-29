@@ -14,7 +14,7 @@ internal sealed class DeleteDepotByIdCommandHandler(
     {
         Depot depot = await depotRepository.GetByExpressionAsync(p => p.Id == request.Id, cancellationToken);
 
-        if (depot is null)
+        if(depot is null)
         {
             return Result<string>.Failure("Depo bulunamadı");
         }

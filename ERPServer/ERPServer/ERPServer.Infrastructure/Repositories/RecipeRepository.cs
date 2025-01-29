@@ -10,3 +10,4 @@ internal sealed class RecipeRepository : Repository<Recipe, ApplicationDbContext
     {
     }
 }
+

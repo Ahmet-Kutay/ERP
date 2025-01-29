@@ -11,13 +11,13 @@ internal sealed class GetAllOrderQueryHandler(
 {
     public async Task<Result<List<Order>>> Handle(GetAllOrderQuery request, CancellationToken cancellationToken)
     {
-        List<Order> orders =
+        List<Order> orders = 
             await orderRepository
             .GetAll()
             .Include(p => p.Customer)
             .Include(p => p.Details!)
             .ThenInclude(p => p.Product)
-            .OrderByDescending(p => p.Date)
+            .OrderByDescending(p=> p.Date)
             .ToListAsync(cancellationToken);
 
         return orders;

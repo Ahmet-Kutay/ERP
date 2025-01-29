@@ -6,3 +6,4 @@ public sealed record InvoiceDetailDto(
     decimal Quantity,
     decimal Price
     );
+

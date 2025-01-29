@@ -12,14 +12,14 @@ internal sealed class GetAllInvoiceQueryHandler(
 {
     public async Task<Result<List<Invoice>>> Handle(GetAllInvoiceQuery request, CancellationToken cancellationToken)
     {
-        List<Invoice> invoices =
+        List<Invoice> invoices = 
             await invoiceRepository
             .Where(p => p.Type == InvoiceTypeEnum.FromValue(request.Type))
-            .Include(p => p.Customer)
-            .Include(p => p.Details!)
-            .ThenInclude(p => p.Product)
-            .Include(p => p.Details!)
-            .ThenInclude(p => p.Depot)
+            .Include(p=> p.Customer)
+            .Include(p=> p.Details!)
+            .ThenInclude(p=> p.Product)
+            .Include(p=> p.Details!)
+            .ThenInclude(p=> p.Depot)
             .OrderBy(p => p.Date)
             .ToListAsync(cancellationToken);
 

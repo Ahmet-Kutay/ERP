@@ -11,3 +11,4 @@ internal sealed class RecipeDetailRepository : Repository<RecipeDetail, Applicat
     {
     }
 }
+

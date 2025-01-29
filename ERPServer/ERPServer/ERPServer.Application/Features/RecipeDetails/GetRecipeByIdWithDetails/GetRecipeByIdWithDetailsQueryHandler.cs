@@ -15,8 +15,8 @@ internal sealed class GetRecipeByIdWithDetailsQueryHandler(
             await recipeRepository
             .Where(p => p.Id == request.RecipeId)
             .Include(p => p.Product)
-            .Include(p => p.Details!.OrderBy(p => p.Product!.Name))
-            .ThenInclude(p => p.Product)
+            .Include(p => p.Details!.OrderBy(p=> p.Product!.Name))
+            .ThenInclude(p => p.Product)            
             .FirstOrDefaultAsync(cancellationToken);
 
         if (recipe is null)

@@ -21,7 +21,7 @@ internal sealed class UpdateProductCommandHandler(
             return Result<string>.Failure("Ürün bulunamadı");
         }
 
-        if (product.Name != request.Name)
+        if(product.Name != request.Name)
         {
             bool isNameExists = await productRepository.AnyAsync(p => p.Name == request.Name, cancellationToken);
             if (isNameExists)

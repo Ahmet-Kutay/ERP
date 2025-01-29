@@ -24,7 +24,7 @@ internal sealed class CreateRecipeCommandHandler(
             ProductId = request.ProductId,
             Details = request.Details.Select(s =>
                 new RecipeDetail()
-                {
+                {                    
                     ProductId = s.ProductId,
                     Quantity = s.Quantity
                 }).ToList()

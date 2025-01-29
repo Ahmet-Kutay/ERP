@@ -14,7 +14,7 @@ internal sealed class DeleteProductByIdCommandHandler(
     {
         Product product = await productRepository.GetByExpressionAsync(p => p.Id == request.Id, cancellationToken);
 
-        if (product is null)
+        if(product is null)
         {
             return Result<string>.Failure("Ürün bulunamadı");
         }

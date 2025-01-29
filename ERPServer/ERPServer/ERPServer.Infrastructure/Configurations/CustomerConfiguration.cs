@@ -2,13 +2,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace ERPServer.Infrastructure.Configurations
+namespace ERPServer.Infrastructure.Configurations;
+internal sealed class CustomerConfiguration : IEntityTypeConfiguration<Customer>
 {
-    internal sealed class CustomerConfiguration : IEntityTypeConfiguration<Customer>
+    public void Configure(EntityTypeBuilder<Customer> builder)
     {
-        public void Configure(EntityTypeBuilder<Customer> builder)
-        {
-            builder.Property(p => p.TaxNumber).HasColumnType("varchar(11)");
-        }
+        builder.Property(p => p.TaxNumber).HasColumnType("varchar(11)");
     }
 }
