@@ -1,0 +1,13 @@
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\bin\Release\net8.0\ERPServer.Domain.deps.json
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\bin\Release\net8.0\ERPServer.Domain.dll
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\bin\Release\net8.0\ERPServer.Domain.pdb
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Release\net8.0\ERPServer.Domain.csproj.AssemblyReference.cache
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Release\net8.0\ERPServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Release\net8.0\ERPServer.Domain.AssemblyInfoInputs.cache
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Release\net8.0\ERPServer.Domain.AssemblyInfo.cs
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Release\net8.0\ERPServer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Release\net8.0\ERPServer.Domain.sourcelink.json
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Release\net8.0\ERPServer.Domain.dll
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Release\net8.0\refint\ERPServer.Domain.dll
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Release\net8.0\ERPServer.Domain.pdb
+C:\Users\Kutay\Desktop\Projeler\ERP\ERPServer\ERPServer\ERPServer.Domain\obj\Release\net8.0\ref\ERPServer.Domain.dll
