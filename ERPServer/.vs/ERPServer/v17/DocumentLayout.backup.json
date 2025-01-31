@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver\\erpserver.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver\\erpserver.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC38D846-FA30-46A9-8AD9-64995280EB42}|ERPServer\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver\\erpserver.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{020A569C-9CF4-481B-8DF0-BCF769A4C6E2}|ERPServer\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{020A569C-9CF4-481B-8DF0-BCF769A4C6E2}|ERPServer\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:erpserver\\erpserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\users\\kutay\\desktop\\projeler\\erp\\erpserver\\erpserver\\erpserver.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7F376893-D1F6-4DCB-A3A5-EDD134B5D3FD}|ERPServer\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver\\erpserver.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Application\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "ERPServer\\ERPServer.Application\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:27:32.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ERPServer\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ERPServer\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:14:11.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ERPServer\\ERPServer.WebAPI\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\appsettings.Development.json",
-              "RelativeToolTip": "ERPServer\\ERPServer.WebAPI\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-31T09:12:35.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ERPServer\\ERPServer.WebAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\appsettings.json",
-              "RelativeToolTip": "ERPServer\\ERPServer.WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-31T09:02:14.24Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "ERPServer\\ERPServer.WebAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.WebAPI\\Dockerfile",
+              "RelativeToolTip": "ERPServer\\ERPServer.WebAPI\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-31T10:10:46.978Z",
               "EditorCaption": ""
             }
           ]

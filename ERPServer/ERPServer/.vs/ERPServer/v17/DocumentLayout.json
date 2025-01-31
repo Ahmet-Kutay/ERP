@@ -19,7 +19,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ERPServer.Infrastructure",
+              "Title": "ERPServer.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj",
               "RelativeDocumentMoniker": "ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj",
               "ToolTip": "C:\\Users\\Kutay\\Desktop\\Projeler\\ERP\\ERPServer\\ERPServer\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj",
